@@ -40,9 +40,6 @@ const noHelpCommands = [
             }
             msg.delete();
         }, 250);
-    }),
-    new Command("bot-stop", "", (msg) => {
-        if(msg.author.id == 785575715374235649) process.exit();
     })
 ]
 
